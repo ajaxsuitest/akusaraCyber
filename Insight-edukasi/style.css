@@ -1,0 +1,514 @@
+/* *{margin: 0;
+padding: 0;
+box-sizing: border-box;
+} */
+
+/* <!-- Header --> */
+.insight-edukasi {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 38px 69px 45px 0;
+    box-sizing: border-box;
+  }
+  .navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: -5%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1000;
+    /* box-sizing: border-box; */
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+}
+.container-navbar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+    /* box-sizing: border-box; */ 
+}
+.logonavbar-akusaracyber {
+    width: 165px;
+    height: 150px;
+    margin-left: -145px;
+    margin-top: -20px;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;    
+}
+.nav-list li {
+    margin-right: 85px;
+}  
+.nav-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
+}
+.nav-list a:hover {
+    color: #000;
+    /* font-style: underline; */
+}
+.insight-font{
+  margin-bottom: 1px;  
+  font-family: 'Poppins';
+  font-weight: 600; 
+  font-size: 22px;
+}
+.insight-navbar{
+    background: #000000;
+    margin: 0 8.2px 0 6px;
+    width: 65px;
+    height: 2px;
+}
+.container-iconnamaprofil{
+    margin-right: -100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.icon-profil{
+    border-radius: 31px;
+    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-asia-southeast1/trialprojects/trial-Jrzc9BYVQYLpFA1qJT4aX4/assets/images/34992563988660ceeeb1f817e30235a8af3affdb?Expires=1712259264&KeyName=fn12-cdn&Signature=Ty5a7xWKGZhEap6dsUIuQDbRtys=') 50% / cover no-repeat;
+    margin-right: 18px;
+    width: 66px;
+    height: 73px;
+}
+.nama-profil{
+
+    margin: 33px 0 4px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+}
+  /* <!--Main--> */
+  /* Main{
+    padding: 0;
+    right: 0;
+  } */
+  .container-judulhal {
+    /* margin: 0 80.3px 13px 80.3px; */
+    margin-left: 25px;
+    margin-right: 0px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-start;
+    width: 761.1px;
+    box-sizing: border-box;
+  }
+  .panah-back {
+    margin: 27px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 32.4px;
+    height: 17.9px;
+    box-sizing: border-box;
+  }
+  .vector {
+    width: 32.4px;
+    height: 17.9px;
+  }
+  
+  .judul-edukasi {
+      margin-right: 0px;
+      overflow-wrap: break-word;
+      font-family: 'Poppins';
+      font-weight: 800;
+      font-size: 48px;
+      color: #000000;
+  }
+  .container-alljenisedukasi {
+      margin-left: 12px;
+      margin-right: 12px;
+      margin-top: 25px;
+      margin-bottom: 150px;
+      border-radius: 10px;
+      background: #4B96EC;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 96px 52px 123px 58px;
+      width: fit-content;
+      box-sizing: border-box;
+  }
+  <!-- ini ringkasan buat isian card edukasi-->
+   .nama-edukasi{
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 24px;
+    color: #000000;
+   }
+   .isi-edukasi {
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 13px;
+    color: #000000;
+   } 
+   .btn-learnmore {
+    box-shadow: 2px 6px 2px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    background: #04B4FF;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    padding: 14px 0.9px 13px 0;
+    width: 190px;
+    box-sizing: border-box;
+   }
+   .learn-more {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+   }
+  
+  .edukasi-rowatas {
+    margin-right: 0px;
+    margin-bottom: 98px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 44px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+   .edukasi_satu-phising{
+    border-radius: 8px;
+    background: #FFFFFF;
+    position: relative;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 29.9px 30px 22px;
+    box-sizing: border-box;
+   }
+   .image-phising img{
+    border-radius: 20px;
+    margin-bottom: 44px;
+    width: 316.1px;
+    height: 190px;
+   }
+   .nama-edukasi .no-1{
+    margin-bottom: 16px;
+  }
+   .isi-edukasi .no-1 {
+    margin-bottom: 76px;
+   } 
+   .btn-learnmore .no-1 {
+    margin-left: 7.9px;
+   }
+  
+   .edukasi_dua-malware {
+    border-radius: 8px;
+    border: 4px solid #E6E4E4;
+    background: #FFFFFF;
+    position: relative;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 20px 30px 18px;
+    box-sizing: border-box;
+   }
+   .image-malware img{
+    border-radius: 20px;
+    margin-bottom: 69px;
+    width: 330px;
+    height: 165px;
+   }
+   .nama-edukasi .no-2 {
+    margin: 0 4px 13px 4px;
+   }
+   .isi-edukasi .no-2 {
+    margin: 0 4px 79px 4px;
+   }
+   .btn-learnmore .no-2 {
+    margin-right: 4px;
+   }
+  
+   .edukasi_tiga-mitm {
+    border-radius: 8px;
+    background: #FFFFFF;
+    position: relative;
+    margin-bottom: 2px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 19.5px 28px 20px;
+    box-sizing: border-box;
+   }
+   .image-mitm img{
+    border-radius: 20px;
+    margin-bottom: 65px;
+    width: 328.5px;
+    height: 169px;
+   }
+   .nama-edukasi .no-3 {
+    margin: 0 2px 8px 2px;
+   }
+   .isi-edukasi .no-3 {
+    margin: 0 2px 86px 2px;
+  
+   }
+   .btn-learnmore .no-3 {
+    margin-right: 0.5px;
+   }
+  
+  .edukasi-rowbawah {
+    margin-right: 0px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 44px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  
+   .edukasi_empat-clickjacking{
+    border-radius: 8px;
+    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 26px 30px 30px 15px;
+    box-sizing: border-box;
+   }
+   .image-click img{
+    border-radius: 20px;
+    margin-bottom: 31px;
+    width: 323px;
+    height: 201px;
+   }
+   .nama-edukasi .no-4 {
+    margin: 0 7px 11px 7px;
+   }
+   .isi-edukasi .no-4 {
+    margin: 0 7px 81px 7px;
+   }
+   .btn-learnmore .no-4 {
+    margin-left: 15px;
+   }
+  
+   .edukasi_lima-bruteforce {
+    border-radius: 8px;
+    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 26px 22.6px 30px 22px;
+    box-sizing: border-box;
+   }
+   .image-bruteforce img{
+    border-radius: 20px;
+    margin: 0 0 52px 2px;
+    width: 321.4px;
+    height: 180px;
+   }
+   .nama-edukasi .no-5 {
+    margin-bottom: 6px;
+   }
+   .isi-edukasi .no-5 {
+    margin-top: 7px;
+    margin-bottom: 79px;
+   }
+   .btn-learnmore .no-5 {
+    margin-right: 5.4px;
+   }
+   
+   .edukasi_enam-backdoor {
+    border-radius: 8px;
+    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 22px 30px 22px;
+    box-sizing: border-box;
+   }
+   .image-backdoor img{
+    border-radius: 15px;
+    margin: 0 0 11px 14px;
+    width: 310px;
+    height: 231px;
+   }
+   .nama-edukasi .no-6 {
+      margin-bottom: 6px;
+   }
+   .isi-edukasi .no-6 {
+    margin-bottom: 79px;
+    margin-top: 7px;
+   }
+   .btn-learnmore .no-6 {
+    margin-right: 5.4px;
+   }
+
+/*Footer*/ 
+  .footer-ini {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-self: flex-start;
+      /* padding: 38px 0 0 110px; */
+      /* width: 1282.2px; */
+      box-sizing: border-box;
+  }
+   .rectangle-footer {
+      /* padding: 0; */
+      margin-left: -8px;
+      margin-top: 28px;
+      background: #AAB6BF;
+      position: absolute;
+      height: 250px;
+      width: 1343px;
+   }
+   .container-kontakdanlogokontak {
+    margin-top: 25px;
+    margin-right: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-end;
+    width: 602.2px;
+    box-sizing: border-box;
+   }
+   .contact-us {
+    margin-top: 35px;
+    margin-left: -30px;
+    position: relative;
+    width: 451px;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 32px;
+    color: #000000;
+   }
+   .container-logokontak {
+    position: relative;
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-bottom: -70px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.8px;
+    width: 130px;
+    height: fit-content;
+    box-sizing: border-box;
+   }
+   .fb-kontak {
+    width: 41.2px;
+    height: 40px;
+   }
+   .ig-kontak {
+    width: 41.2px;
+    height: 40px;
+   }
+   .google-kontak {
+    width: 41.2px;
+    height: 40px;
+   }
+   .container-footerbawah {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-start;
+    width: 775.1px;
+    box-sizing: border-box;
+   }
+   .isicontainer-footerbawah {
+      position: relative;
+      margin-left: 25px;
+      margin-right: 50px;
+      text-align: justify;
+      overflow-wrap: break-word;
+      font-family: 'Poppins';
+      font-weight: 450;
+      font-size: 15px;
+      color: #000000;
+   }
+   .container-emailnomerhp {
+    position: relative;
+    margin-right: -40px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+   }
+   .container-ikonkontak {
+    margin: 4px 13px 1.4px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20px;
+    height: fit-content;
+    box-sizing: border-box;
+   }
+   .ichone-email {
+    margin-bottom: 25.6px;
+    width: 20px;
+    height: 16.4px;
+   }
+   .icon-phone {
+    width: 20px;
+    height: 22.6px;
+   }
+   .container-isiemaildankontak {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+   }
+   .akusaragmail-com {
+      margin-bottom: 22px;
+      display: inline-block;
+      overflow-wrap: break-word;
+      font-family: 'Poppins';
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: -0.3px;
+      line-height: 1.5;
+      color: #000000;
+   }
+   .no-kontak {
+      margin-right: 11.6px;
+      overflow-wrap: break-word;
+      font-family: 'Poppins';
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: -0.3px;
+      line-height: 1.5;
+      color: #000000;
+   }
+    .logofooter-akusaracyber {
+      background: url('https://fn12.com/api/clusters/cluster-fn12-prod-asia-southeast1/trialprojects/trial-Jrzc9BYVQYLpFA1qJT4aX4/assets/images/c957971c47b174bc0a3b45bdbd8f5c8587cdc480?Expires=1712259264&KeyName=fn12-cdn&Signature=wACgU8jW8-3kO5QpunwuTrfJk5s=') 50% / cover no-repeat;
+      position: absolute;
+      margin-left: -60px;
+      padding-top: 40px;
+      width: 470px;
+      height: 152px;
+    }
