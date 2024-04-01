@@ -12,7 +12,7 @@
   left: 0;
   right: 0;
   padding: -5%;
-  background-color: red;
+  background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -32,6 +32,19 @@
 .brand-logo {
   height: 80px;
   margin-left: -9%;
+}
+
+/* Tampilan setelah login*/ 
+
+.list-login{
+  list-style: none;
+}
+.list-login img{ 
+  margin-bottom: -20%;
+}
+.brand-logo-login {
+  height: 50px;
+  margin-top: 20px;
 }
 
 .nav-list {
