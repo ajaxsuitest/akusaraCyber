@@ -62,13 +62,19 @@ body {
   cursor: pointer;
 }
 
+.container button.hidden {
+  background-color: transparent;
+  border-color: #fff;
+}
 
 button:hover {
   background: #195cb8;
 }
 
+button.hidden:hover {
+  background: #6796dd;
+}
 
-s
 .container form {
   background-color: #fff;
   display: flex;
