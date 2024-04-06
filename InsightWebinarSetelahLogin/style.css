@@ -32,6 +32,18 @@
     margin-left: -9%;
   }
   
+  .list-login{
+    list-style: none;
+  }
+  .list-login img{ 
+    margin-bottom: -20%;
+  }
+  .brand-logo-login {
+    height: 50px;
+    margin-top: 20px;
+  }
+  
+  
   .nav-list {
     list-style: none;
     display: flex;
