@@ -73,26 +73,6 @@ font-weight: 700;
   color: #000;
 }
 
-.btn-login {
-  list-style: none;
-  display: inline-block;
-  margin-top: 40%;
-  text-decoration: none;
-  background-color: #D9D9D9;
-  color: #000000;
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 70px;
-  cursor: pointer;
-  transition: 0.2s ease-in-out;
-}
-
-.login-btn:hover {
-  background-color: #333;
-  }
-
 /* End */
   
   
