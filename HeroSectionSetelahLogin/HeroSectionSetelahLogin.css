@@ -141,73 +141,73 @@
 }
 
 /* Footer section start*/
-
 .footer{
-    margin: 0;
-    padding: 0;
-    margin-top: 50px;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    bottom: 0px;
-    width: 100%;
-    background: #AAB6BF;
-    color: #000;
-    
-  }
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  bottom: 0px;
+  width: 100%;
+  background: #ADCDF1;
+  color: #000;
   
-  .main-content{
-    display: flex;
-  }
-  .main-content .left h1{
-    color: #4B96EC;
-    font-size: 45px;
-  }
-  .main-content .center h1{
-    font-size: 25px;
-    margin-top: 20px;
-  }
-
+}
+.main-content{
+  display: flex;
+}
+.main-content .center h1{
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+.place i span{
+  font-family: 'Poppins', sans-serif;
+}
+.footer-logo{
+  height: 80px;
+  margin-left: -9%;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 15px 20px;
+}
+.left{
+  margin-left: 5% ;
+}
+.center{
+  margin-left: 20%;
   
-  .main-content .box{
-    flex-basis: 50%;
-    padding: 15px 20px;
-  }
+}
+.right{
+  margin-left: 27%;
+}
+/* yang di ubah  */
+.footer-content p{
+  margin-right: -70%;
+}
 
-  .left{
-    margin-left: 5% ;
-  }
-    .center{
-    margin-left: 20%;
-  }
-  
-    .right{
-    margin-left: 27%;
-  }
-  .social a{
-    margin-right: -150%;
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    background-color: transparent;
-    border: 1px solid #333;
-    border-radius: 50%;
-    font-size: 20px;
-    color: #4B96EC;
-    text-decoration: none;
-    overflow: hidden;
-    transition: .5s;
-  }
+.social a img{
+  margin-right: -60%;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  transition: .5s;
+}
 
-  .box .footer-content{
-    margin: 20px 0 0 0;
-  }
-  .center .content .place{
-    margin: 20px 0 0 0 ;
-  } 
-  .right .content .social{
-    margin: 20px 0 0 0 ;
-  } 
-  /* Footer End */
+.box .footer-content{
+  margin: 20px 0 0 0;
+}
+.center .content .place{
+  margin: 20px 0 0 0 ;
+} 
+.right .content .social{
+  margin: 20px 0 0 0 ;
+} 
+
+/* Footer End */

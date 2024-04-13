@@ -1,7 +1,7 @@
- *{margin: 0;
+ /* *{margin: 0;
 padding: 0;
 box-sizing: border-box;
-} 
+}  */
 
 /* <!-- Header --> */
 .insight-edukasi {
@@ -104,9 +104,6 @@ box-sizing: border-box;
     padding: 0;
     right: 0;
   } */
-
-  /* <!-- Body --> */
-
   .container-judulhal {
     /* margin: 0 80.3px 13px 80.3px; */
     margin-left: 25px;
@@ -119,7 +116,7 @@ box-sizing: border-box;
     width: 761.1px;
     box-sizing: border-box;
   }
-  .panah-back { 
+  .panah-back {
     margin: 27px 0;
     display: flex;
     flex-direction: row;
@@ -127,7 +124,7 @@ box-sizing: border-box;
     width: 32.4px;
     height: 17.9px;
     box-sizing: border-box;
-  } 
+  }
   .vector {
     width: 32.4px;
     height: 17.9px;
@@ -156,8 +153,7 @@ box-sizing: border-box;
       width: fit-content;
       box-sizing: border-box;
   }
-
-  /* <!-- ini ringkasan buat isian card edukasi--> */
+  <!-- ini ringkasan buat isian card edukasi-->
    .nama-edukasi{
     display: inline-block;
     align-self: flex-start;
@@ -372,7 +368,7 @@ box-sizing: border-box;
     margin-right: 5.4px;
    }
 
-/* <!-- Footer --> */
+/*Footer*/ 
   .footer-ini {
       position: relative;
       display: flex;
