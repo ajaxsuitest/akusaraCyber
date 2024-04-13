@@ -1,109 +1,89 @@
- /* *{margin: 0;
-padding: 0;
-box-sizing: border-box;
-}  */
-
-/* <!-- Header --> */
-.insight-edukasi {
-    background: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    padding: 38px 69px 45px 0;
-    box-sizing: border-box;
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }  
+  
+  
+  /* Style the navbar */
+  .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: -5%;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 1000;
+      box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
   }
-  .navbar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: -5%;
-    background-color: #fff;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    z-index: 1000;
-    /* box-sizing: border-box; */
-    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
-}
-.container-navbar{
-    display: flex;
-    justify-content: space-between;
-    max-width: 1000px;
-    margin: 0 auto;
-    width: 100%;
-    /* box-sizing: border-box; */ 
-}
-.logonavbar-akusaracyber {
-    width: 165px;
-    height: 150px;
-    margin-left: -145px;
-    margin-top: -20px;
-}
-.nav-list{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 22px;
-    color: #000000;    
-}
-.nav-list li {
-    margin-right: 85px;
-}  
-.nav-list a {
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
-    transition: 0.2s ease-in-out;
-}
-.nav-list a:hover {
-    color: #000;
-    /* font-style: underline; */
-}
-.insight-font{
-  margin-bottom: 1px;  
-  font-family: 'Poppins';
-  font-weight: 600; 
-  font-size: 22px;
-}
-.insight-navbar{
-    background: #000000;
-    margin: 0 8.2px 0 6px;
-    width: 65px;
-    height: 2px;
-}
-.container-iconnamaprofil{
-    margin-right: -100px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-}
-.icon-profil{
-    border-radius: 31px;
-    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-asia-southeast1/trialprojects/trial-Jrzc9BYVQYLpFA1qJT4aX4/assets/images/34992563988660ceeeb1f817e30235a8af3affdb?Expires=1712259264&KeyName=fn12-cdn&Signature=Ty5a7xWKGZhEap6dsUIuQDbRtys=') 50% / cover no-repeat;
-    margin-right: 18px;
-    width: 66px;
-    height: 73px;
-}
-.nama-profil{
-
-    margin: 33px 0 4px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 24px;
-    color: #000000;
-}
-  /* <!--Main--> */
-  /* Main{
-    padding: 0;
-    right: 0;
-  } */
+  
+  .container {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 10px;
+      width: 100%;
+  }
+  
+  .brand-logo {
+      height: 100px;
+      margin-left: -9%;
+  }
+  
+  .nav-list {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+  }
+  
+  .nav-list .under a{
+    text-decoration: underline;
+    font-weight: 700;
+  }
+  .nav-list li {
+      margin-right: 20px;
+     
+  }
+  
+  .nav-list a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      transition: 0.2s ease-in-out;
+      padding-left: 25px;
+      padding-right: 25px;
+  }
+  
+  .nav-list a:hover {
+      color: #000;
+  }
+  
+  .btn-login {
+      list-style: none;
+      display: inline-block;
+      margin-top: 40%;
+      background-color: #4b96ec;
+      color: #fff;
+      text-align: center;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 70px;
+      cursor: pointer;
+      transition: 0.2s ease-in-out;
+  }
+  
+  .login-btn:hover {
+      background-color: #333;
+      }
+  
+  /* End */
+  
+  
   .container-judulhal {
     /* margin: 0 80.3px 13px 80.3px; */
     margin-left: 25px;

@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* Style the navbar */
 .navbar {
   position: fixed;
   top: 0;
@@ -15,7 +16,7 @@
   align-items: center;
   justify-content: space-between;
   z-index: 1000;
-  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
 }
 
 .container {
@@ -27,8 +28,8 @@
   width: 100%;
 }
 
-.logo-navbar {
-  height: 80px;
+.brand-logo {
+  height: 100px;
   margin-left: -9%;
 }
 
@@ -36,8 +37,25 @@
   list-style: none;
   display: flex;
   align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+.list-login{
+  list-style: none;
+}
+.list-login img{ 
+  margin-bottom: -20%;
 }
 
+.brand-logo-login {
+  height: 50px;
+  margin-top: 20px;
+}
+
+.nav-list .under a{
+text-decoration: underline;
+font-weight: 700;
+}
 .nav-list li {
   margin-right: 20px;
 }
@@ -47,34 +65,23 @@
   color: #333;
   font-weight: 500;
   transition: 0.2s ease-in-out;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .nav-list a:hover {
   color: #000;
 }
 
-.list-login {
-  list-style: none;
-}
-.list-login img {
-  margin-bottom: -20%;
-}
-.brand-logo-login {
-  height: 50px;
-  margin-top: 20px;
-}
 
-.header {
-  margin-top: 130px;
-  display: flex;
-}
+/* End */
 
 .img-main {
   justify-content: center;
   align-items: center;
   display: block;
   margin: auto;
-  margin-top: 15px;
+  margin-top: 10%;
   margin-bottom: 15px;
   width: 45%;
 }
