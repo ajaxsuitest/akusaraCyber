@@ -157,6 +157,7 @@ p {
 
 
 /* Blog section Start */
+/* Blog section Start */
 .heading-blog {
   text-align: center;
   padding: 34px 0;
@@ -201,7 +202,13 @@ p {
   font-size: 15px;
   line-height: 1.3;
 }
+
 .cardb-content .btn-blog{
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    margin-left: 25%;
+    font-family: 'Poppins', sans-serif;
     margin-top: 10px;
     display: inline-block;
     padding: 8px 25px;
@@ -209,7 +216,7 @@ p {
     border-radius: 2rem;
     color: black;
     cursor: pointer;
-    background-color: #4b96ec;
+    border: 1px solid black;
 }
 
 .btn-blog-view-all{
