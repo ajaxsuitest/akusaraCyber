@@ -95,7 +95,17 @@
 }
 
 /* <!------Main Section-------> */
+.pagination {
+  display: inline-block;
+  margin-left: 39%;
+}
 
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
 /* <!--Beginner--> */
 .container-judulhal {
     /* margin: 0 80.3px 13px 80.3px; */
