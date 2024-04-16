@@ -212,6 +212,26 @@ p {
     background-color: #4b96ec;
 }
 
+.btn-blog-view-all{
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 45%;
+ 
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 20px;
+  border-radius: 70px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.btn-blog-view-alll{
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 10px 30px;
+  border-radius: 70px;
+  color: #000000;
+} 
 /* Blog section end */
 
 /* powered section start */
