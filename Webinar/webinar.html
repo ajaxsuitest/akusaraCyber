@@ -28,34 +28,23 @@
 
 <body>
     <!-- Start Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-        <div class="container">
-            <a style="color: #6B7CE0; font-size: 35px;" class="navbar-brand" href="#">AkusaraCyber</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse me-2" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link mx-2" href="#">Insight</a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link mx-2" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link mx-2" href="#">About us</a>
-                    </li>
-                </ul>
-                <div>
-                    <button class="btn btn-primary" type="button">Log in</button>
-                </div>
+    <header>
+        <nav class="navbar">
+          <div class="container">
+            <img src="../img/Logo.png" alt="" class="brand-logo" />
+            <ul class="nav-list">
+              <li class="under"><a href="#home">Home</a></li>
+              <li><a href="#insight">Insight</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="../About Us/about-us.html">AboutUs</a></li>
+            </ul>
+            <div>
+              <a href="../Form Login-Register/index.html" class="btn-login">Login</a>
             </div>
-        </div>
-    </nav>
+          </div>
+        </nav>
+      </header>
+    
     <!-- End Navbar -->
 
     <!-- awal insight -->
@@ -98,12 +87,19 @@
                 SSL untuk mengenkripsi data, supaya terhindar dari ancaman keamanan. Tapi, apakah semua
                 website butuh SSL??</p>
         </div>
+      
     </section>
+    <div class="transparan">
+        <div class="btn-transparan">
+            <p>Maaf, anda harus login terlebih dahulu untuk mendaftar webinar ini </p>
+            <a href="../Form Login-Register/index.html"><button class="btn-tf">Daftar</button></a>
+        </div>
     </div>
     <!-- akhir insight -->
-
+ 
     <!-- Awal Footer -->
     <!-- Footer Start -->
+ <!-- Footer Start -->
  <footer class="footer">
     <div class="main-content">
       <!-- left -->
@@ -145,33 +141,12 @@
   </footer>
   
   <!-- Footer End  -->
+  <!-- Footer End  -->
 
-    <script>
-        const btn = document.getElementById('id');
-        Swal.fire({
-            title: "Hai orang hebat",
-            text: "Kamu belum mempunyai akun, ingin membuat akun?",
-            icon: "warning",
-            showCancelButton: false,
-            confirmButtonColor: "#3085d6",
-            cancelButtonColor: "#d33",
-            confirmButtonText: "Sign in"
-        }).then((result) => {
-            if (result.isConfirmed) {
-                Swal.fire({
-                    title: "Sig in",
-                    text: "Sign in berhasil, Halo anton.",
-                    icon: "success"
-                });
-            }
-        });
-    </script>
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+  
+    <!-- Notif Login -->
+    
+    <!-- Awal Footer -->
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
